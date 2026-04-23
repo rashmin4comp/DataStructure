@@ -25,12 +25,22 @@
     <slot />
 </main>
 
+<footer>
+    <div class="footer-content">
+        <p>&copy; {new Date().getFullYear()} Computer Engineering Department - Sardar Vallabhbhai Patel Institute of Technology, Vasad</p>
+        <p class="prepared-by">Prepared by: <strong>Keyur S Suthar</strong> and <strong>Rashmin B Prajapati</strong></p>
+    </div>
+</footer>
+
 <style>
     :global(body) {
         margin: 0;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         background-color: #f8f9fa;
         color: #2c3e50;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
     }
 
     .main-nav {
@@ -64,7 +74,7 @@
 
     .nav-links {
         display: flex;
-        gap: 2rem;
+        gap: 1.5rem;
     }
 
     .nav-links a {
@@ -72,6 +82,7 @@
         color: #6c757d;
         font-weight: 500;
         transition: color 0.2s;
+        font-size: 0.9rem;
     }
 
     .nav-links a:hover {
@@ -82,5 +93,35 @@
         max-width: 1200px;
         margin: 2rem auto;
         padding: 0 1rem;
+        flex-grow: 1;
+        width: 100%;
+    }
+
+    footer {
+        background: #2d3436;
+        color: #dfe6e9;
+        padding: 2rem 1rem;
+        margin-top: 4rem;
+        border-top: 4px solid #4a90e2;
+    }
+
+    .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .footer-content p {
+        margin: 0.25rem 0;
+        font-size: 0.9rem;
+    }
+
+    .prepared-by {
+        color: #b2bec3;
+        margin-top: 0.5rem !important;
+    }
+
+    .prepared-by strong {
+        color: #4a90e2;
     }
 </style>

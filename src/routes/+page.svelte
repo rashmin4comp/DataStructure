@@ -54,26 +54,26 @@
     }
 
     .hero h1 {
-        font-size: 3rem;
+        font-size: 2rem;
         color: #2c3e50;
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
     }
 
     .hero p {
-        font-size: 1.2rem;
+        font-size: 1rem;
         color: #6c757d;
     }
 
     .menu-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 2rem;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1.5rem;
     }
 
     .menu-card {
         background: white;
-        padding: 2rem;
-        border-radius: 16px;
+        padding: 1rem 1.25rem;
+        border-radius: 12px;
         text-decoration: none;
         color: inherit;
         box-shadow: 0 4px 6px rgba(0,0,0,0.05);
@@ -96,27 +96,30 @@
     }
 
     .icon {
-        font-size: 3rem;
-        margin-bottom: 1.5rem;
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
     }
 
     .menu-card h2 {
-        margin-bottom: 1rem;
+        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
         color: #4a90e2;
     }
 
     .menu-card p {
-        margin-bottom: 1.5rem;
+        font-size: 0.85rem;
+        margin-bottom: 1rem;
         color: #6c757d;
-        flex-grow: 1;
+        line-height: 1.4;
     }
 
     .btn {
         background: #4a90e2;
         color: white;
-        padding: 0.8rem 1.5rem;
-        border-radius: 8px;
+        padding: 0.5rem 1rem;
+        border-radius: 6px;
         font-weight: 600;
+        font-size: 0.8rem;
     }
 
     .btn.secondary {
