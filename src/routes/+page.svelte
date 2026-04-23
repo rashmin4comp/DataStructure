@@ -38,6 +38,13 @@
         <p>Visualize Binary Search Trees, Traversals, Searching, and Deletion.</p>
         <span class="btn">Explore Trees</span>
     </a>
+
+    <a href="/graph" class="menu-card">
+        <div class="icon">🕸️</div>
+        <h2>Graphs</h2>
+        <p>Explore BFS, DFS, Dijkstra's Algorithm, and Minimum Spanning Trees.</p>
+        <span class="btn">Explore Graphs</span>
+    </a>
 </div>
 
 <style>
