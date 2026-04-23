@@ -14,6 +14,7 @@
             <a href="/sorting">Sorting</a>
             <a href="/stack">Stack</a>
             <a href="/queue">Queue</a>
+            <a href="/linked-list">Linked List</a>
         </div>
     </div>
 </nav>

@@ -24,6 +24,13 @@
         <p>Learn FIFO (First-In-First-Out) operations: Enqueue and Dequeue.</p>
         <span class="btn">Explore Queue</span>
     </a>
+
+    <a href="/linked-list" class="menu-card">
+        <div class="icon">🔗</div>
+        <h2>Linked List</h2>
+        <p>Explore Singly, Doubly, and Circular Linked Lists with node pointers.</p>
+        <span class="btn">Explore Linked List</span>
+    </a>
 </div>
 
 <style>
