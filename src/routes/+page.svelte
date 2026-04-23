@@ -11,19 +11,19 @@
         <span class="btn">Explore Sorting</span>
     </a>
 
-    <div class="menu-card disabled">
-        <div class="icon">🔗</div>
-        <h2>Linked Lists</h2>
-        <p>Coming Soon: Understand nodes, pointers, and traversals.</p>
-        <span class="btn secondary">Locked</span>
-    </div>
+    <a href="/stack" class="menu-card">
+        <div class="icon">📚</div>
+        <h2>Stack</h2>
+        <p>Learn LIFO (Last-In-First-Out) operations: Push and Pop.</p>
+        <span class="btn">Explore Stack</span>
+    </a>
 
-    <div class="menu-card disabled">
-        <div class="icon">🌳</div>
-        <h2>Trees & Graphs</h2>
-        <p>Coming Soon: Explore BFS, DFS, and Binary Search Trees.</p>
-        <span class="btn secondary">Locked</span>
-    </div>
+    <a href="/queue" class="menu-card">
+        <div class="icon">🚶‍♂️🚶‍♀️</div>
+        <h2>Queue</h2>
+        <p>Learn FIFO (First-In-First-Out) operations: Enqueue and Dequeue.</p>
+        <span class="btn">Explore Queue</span>
+    </a>
 </div>
 
 <style>

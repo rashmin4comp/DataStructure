@@ -12,6 +12,8 @@
         <div class="nav-links">
             <a href="/">Main Menu</a>
             <a href="/sorting">Sorting</a>
+            <a href="/stack">Stack</a>
+            <a href="/queue">Queue</a>
         </div>
     </div>
 </nav>
