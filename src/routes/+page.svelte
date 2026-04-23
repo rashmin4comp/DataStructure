@@ -31,6 +31,13 @@
         <p>Explore Singly, Doubly, and Circular Linked Lists with node pointers.</p>
         <span class="btn">Explore Linked List</span>
     </a>
+
+    <a href="/tree" class="menu-card">
+        <div class="icon">🌳</div>
+        <h2>Trees</h2>
+        <p>Visualize Binary Search Trees, Traversals, Searching, and Deletion.</p>
+        <span class="btn">Explore Trees</span>
+    </a>
 </div>
 
 <style>

@@ -15,6 +15,7 @@
             <a href="/stack">Stack</a>
             <a href="/queue">Queue</a>
             <a href="/linked-list">Linked List</a>
+            <a href="/tree">Tree</a>
         </div>
     </div>
 </nav>
